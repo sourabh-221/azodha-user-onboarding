@@ -1,0 +1,17 @@
+{
+  "files": [],
+  "references": [
+    // Points to frontend application configuration
+    { "path": "./tsconfig.app.json" },
+    // Points to Node.js-specific configuration
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    // Sets the root directory for resolving module names
+    // "baseUrl": ".",
+
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}

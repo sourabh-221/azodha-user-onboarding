@@ -1,0 +1,66 @@
+{
+  /**
+   * * Editor & Formatting Settings
+   */
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.detectIndentation": false,
+  "editor.inlineSuggest.suppressSuggestions": false,
+  "editor.suggest.preview": true,
+  "editor.suggestSelection": "recentlyUsedByPrefix",
+  "editor.suggest.shareSuggestSelections": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  // * React Settings
+  "reactSnippets.settings.importReactOnTop": false,
+
+  // * File Management Settings
+  "files.autoSave": "off",
+  "files.eol": "auto",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  "files.associations": {
+    ".env.*": "env",
+    "*.css": "tailwindcss"
+  },
+
+  // * Linting & Code Quality Settings
+  "eslint.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+
+  // * TypeScript Settings
+  "js/ts.tsdk.path": "node_modules/typescript/lib",
+
+  // * JavaScript/TypeScript Import Settings
+  "js/ts.updateImportsOnFileMove.enabled": "prompt",
+
+  // * Path Intellisense
+  "js/ts.suggest.paths": true,
+
+  // * Terminal Settings
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+
+  // *  Spell Checker Settings
+  "cSpell.language": "en,lorem,en-US,en-GB",
+  "cSpell.caseSensitive": true,
+  "cSpell.words": [
+    "esnext",
+    "Sourabh",
+    "tailwindcss",
+    "trivago"
+  ]
+}

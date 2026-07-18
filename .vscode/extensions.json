@@ -1,0 +1,34 @@
+{
+  "recommendations": [
+    //* React Snippets
+    "dsznajder.es7-react-js-snippets",
+    //* Git and Version Control
+    "eamodio.gitlens",
+    "pflannery.vscode-versionlens",
+    //* Code Formatting and Beautification
+    "esbenp.prettier-vscode",
+    "aaron-bond.better-comments",
+    "bradlc.vscode-tailwindcss",
+    "formulahendry.auto-rename-tag",
+    "formulahendry.auto-close-tag",
+    "bradgashler.htmltagwrap",
+    //* Linting, Errors & Code Quality
+    "usernamehw.errorlens",
+    "dbaeumer.vscode-eslint",
+    "yoavbls.pretty-ts-errors",
+    "streetsidesoftware.code-spell-checker",
+    "shardulm94.trailing-spaces",
+    //* Auto Imports and Code Completion
+    "steoates.autoimport",
+    "christian-kohler.npm-intellisense",
+    "christian-kohler.path-intellisense",
+    //* Indentation & Code Structure
+    "oderwat.indent-rainbow",
+    //* File Icons and UI
+    "pkief.material-icon-theme",
+    "ibm.output-colorizer",
+    //* Miscellaneous
+    "doggy8088.quicktype-refresh",
+    "nhoizey.gremlins"
+  ]
+}
